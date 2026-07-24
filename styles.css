@@ -172,6 +172,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: #d98324;
+    border-color: #c3f73a;
 }
 
 .modal {
