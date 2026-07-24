@@ -133,6 +133,7 @@ a {
     text-wrap-mode: wrap;
     width: 300px;
     gap: 15px;
+    font-size: 20px;
 }
 
 .item img {
@@ -141,4 +142,27 @@ a {
     border-radius: 30px;
     object-fit: cover;
     height: 200px;
+}
+
+#cont3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #980b7c;
+    color: #c3f73a;
+    gap: 20px;
+    border-color: #27102f;
+}
+
+.quote-text {
+    font-size: 36px;
+    width: 600px;
+    text-wrap-mode: wrap;
+    word-spacing: 3px;
+}
+
+.quote-by {
+    font-size: 20px;
+    text-align: end;
+    width: 600px;
 }
