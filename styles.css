@@ -51,16 +51,39 @@ a {
     text-align: center;
 }
 
+.header, .footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
 .container {
     flex: auto;
     display: flex;
     padding: 20px;
     justify-content: center;
     color: #c3f73a;
+    padding: 50px 200px;
 }
 
+
 #cont1 {
-    background-color: #980b7c;
+    justify-content: space-between;
+    background-color: #27102f;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#jesse-img {
+    border-radius: 20%;
+    border-style: outset;
+    max-height: 400px;
+}
+
+.content {
+}
+
+.content-heading {
+    font-size: 48px;
 }
 
 .btn {
