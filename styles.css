@@ -90,6 +90,7 @@ a {
 
 .content-desc {
     font-size: 25px;
+    word-spacing: 3px;
     font-weight: 0.5;
 }
 
@@ -165,4 +166,35 @@ a {
     font-size: 20px;
     text-align: end;
     width: 600px;
+}
+
+#cont4 {
+    display: flex;
+    justify-content: center;
+    background-color: #d98324;
+}
+
+.modal {
+    background-color: #c3f73a;
+    color: #27102f;
+    flex: auto;
+    max-width: 1000px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#modal-header {
+    font-size: 31px;
 }
