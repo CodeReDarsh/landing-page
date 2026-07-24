@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "KoolBean";
+    src: url("./KoolBean.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "KoolBean", monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    font-size: 23px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27102f; /*midnight violet*/
+    color: #c3f73a; /*chartreuse*/
+}
+
+.jesse-pinkman {
+    font-size: 48px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #c3f73a
+}
+
+.footer {
+    padding: 25px;
+    font-size: 20px;
+    background-color: #27102f;
+    color: #c3f73a;
+    text-align: center;
+}
+
+.container {
+    flex: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: #c3f73a;
+}
+
+#cont1 {
+    background-color: #980b7c;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: "KoolBean";
+    font-size: 19px;
+}
