@@ -2,6 +2,10 @@
 
 A odin project assignement to test my foundational CSS and Flexbox skills.
 
+What the site currently looks like:
+
+![site-actual](./actual.png)
+
 Example landing page to create
 
 ![sample landing page](./01.png)
